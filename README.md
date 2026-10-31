@@ -8,7 +8,7 @@ I work on vulnerability data for a living at [Empirical Security](https://www.em
 
 | Tool | The question it answers | Code |
 |---|---|---|
-| [CVE.ICU](https://cve.icu) | What is in the CVE list right now? Refreshed from the NVD every 4 hours. | [RogoLabs/cve.icu](https://github.com/RogoLabs/cve.icu) |
+| [CVE.ICU](https://cve.icu) | What is in the CVE list right now? Rebuilt whenever a fresh NVD snapshot lands. | [RogoLabs/cve.icu](https://github.com/RogoLabs/cve.icu) |
 | [CVEForecast](https://cveforecast.org) | How many CVEs are coming next? | [RogoLabs/CVEForecast](https://github.com/RogoLabs/CVEForecast) |
 | [CVE Floodline](https://cvefloodline.org) | Is a jump in CVE volume rain or a flood? Uses EPSS and CISA KEV to tell them apart. | [RogoLabs/cvefloodline.org](https://github.com/RogoLabs/cvefloodline.org) |
 | [RBP Tracker](https://rbptracker.org) | Which CVE IDs are cited in public advisories but still sit in Reserved? | [RogoLabs/RBP](https://github.com/RogoLabs/RBP) |
