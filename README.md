@@ -1,8 +1,8 @@
 # Jerry Gamblin
 
-Head of Research at Empirical Security, founder of RogoLabs, and member of the CVE Program's Quality, Automation and Consumer working groups.
+Head of Research at Empirical Security and founder of RogoLabs: I take the CVE list apart and publish what I find.
 
-I work on vulnerability data for a living at [Empirical Security](https://www.empiricalsecurity.com). Then I go home and keep working on it at [RogoLabs](https://rogolabs.net), my open-source lab. The RogoLabs tools are free, the data behind them is public, and they all run on GitHub Actions in repos you can read.
+I work on vulnerability data for a living at [Empirical Security](https://www.empiricalsecurity.com). Then I go home and keep working on it at [RogoLabs](https://rogolabs.net), my open-source lab. Rogo is Latin for "I ask," which is most of the job. I also sit on the CVE Program's Quality, Automation and Consumer working groups.
 
 ## The RogoLabs toolkit asks one question per site
 
@@ -17,20 +17,6 @@ I work on vulnerability data for a living at [Empirical Security](https://www.em
 | [PatchThis.app](https://patchthis.app) | What should you patch first, ranked by exploitability instead of CVSS? | [RogoLabs/patchthisapp](https://github.com/RogoLabs/patchthisapp) |
 | VulnRadar | Which new CVEs touch your stack? A watchlist that files GitHub issues. | [RogoLabs/VulnRadar](https://github.com/RogoLabs/VulnRadar) |
 
-## Recent talks
-
-| When | Where | Talk |
-|---|---|---|
-| Sep 2026 | VulnOptiCON, Luxembourg | The CVE Panopticon: What Happens When the Prisoners Set the Standards? |
-| Apr 2026 | VulnCon, Scottsdale | CVE Decaf: Brewing Better and More Actionable Data Quality (with Jay Jacobs) |
-| Dec 2025 | Black Hat EU, London | The Post-NVD Era: A Call for Global CVE Decentralization |
-| Aug 2025 | DEF CON 33 AppSec Village | CVE Crisis |
-
-Slides for these and older talks are on [rogolabs.net](https://rogolabs.net).
-
-## Elsewhere
-
-- [jerrygamblin.com](https://jerrygamblin.com): data reviews, build logs and the occasional golf dashboard.
-- [LinkedIn](https://www.linkedin.com/in/jgamblin/)
+Talk slides and recordings live on [rogolabs.net](https://rogolabs.net). Data reviews and build logs live on [jerrygamblin.com](https://jerrygamblin.com).
 
 Every number on these sites comes from a public feed and a script you can read. If one looks wrong, open an issue on that repo and show me. I would rather be corrected than believed.
