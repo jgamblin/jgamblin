@@ -33,4 +33,4 @@ Slides for these and older talks are on [rogolabs.net](https://rogolabs.net).
 - [jerrygamblin.com](https://jerrygamblin.com): data reviews, build logs and the occasional golf dashboard.
 - [LinkedIn](https://www.linkedin.com/in/jgamblin/)
 
-If one of these tools gets a number wrong, open an issue. I would rather be corrected than believed.
+Every number on these sites comes from a public feed and a script you can read. If one looks wrong, open an issue on that repo and show me. I would rather be corrected than believed.
