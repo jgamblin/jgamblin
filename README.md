@@ -1,60 +1,36 @@
-# Jerry Gamblin - Security Researcher & Open-Source Toolsmith
+# Jerry Gamblin
 
-## 🚀 Founder | rogolabs.net
+Head of Research at Empirical Security, founder of RogoLabs, and member of the CVE Program's Quality, Automation and Consumer working groups.
 
-I am the Founder of [RogoLabs](https://rogolabs.net), an open-source security
-intelligence lab dedicated to providing **Vulnerability Insights That Matter**.
+I work on vulnerability data for a living at [Empirical Security](https://www.empiricalsecurity.com). Then I go home and keep working on it at [RogoLabs](https://rogolabs.net), my open-source lab. The RogoLabs tools are free, the data behind them is public, and they all run on GitHub Actions in repos you can read.
 
-My mission is to transform overwhelming vulnerability data into clear, actionable
-intelligence, making security practical for everyone. RogoLabs tackles the
-fundamental problem: "How do we fix what matters?" by relentlessly questioning
-vulnerability data.
+## The RogoLabs toolkit asks one question per site
 
----
+| Tool | The question it answers | Code |
+|---|---|---|
+| [CVE.ICU](https://cve.icu) | What is in the CVE list right now? Refreshed from the NVD every 4 hours. | [RogoLabs/cve.icu](https://github.com/RogoLabs/cve.icu) |
+| [CVEForecast](https://cveforecast.org) | How many CVEs are coming next? | [RogoLabs/CVEForecast](https://github.com/RogoLabs/CVEForecast) |
+| [CVE Floodline](https://cvefloodline.org) | Is a jump in CVE volume rain or a flood? Uses EPSS and CISA KEV to tell them apart. | [RogoLabs/cvefloodline.org](https://github.com/RogoLabs/cvefloodline.org) |
+| [RBP Tracker](https://rbptracker.org) | Which CVE IDs are cited in public advisories but still sit in Reserved? | [RogoLabs/RBP](https://github.com/RogoLabs/RBP) |
+| [CNA Scorecard](https://cnascorecard.org) | How complete, accurate and timely is each CNA's data? | [RogoLabs/CNAScoreCard](https://github.com/RogoLabs/CNAScoreCard) |
+| [CNAPulse](https://cnapulse.org) | Which CNAs are publishing more, or less, than their own baseline? | [RogoLabs/CNAPulse](https://github.com/RogoLabs/CNAPulse) |
+| [PatchThis.app](https://patchthis.app) | What should you patch first, ranked by exploitability instead of CVSS? | [RogoLabs/patchthisapp](https://github.com/RogoLabs/patchthisapp) |
+| VulnRadar | Which new CVEs touch your stack? A watchlist that files GitHub issues. | [RogoLabs/VulnRadar](https://github.com/RogoLabs/VulnRadar) |
 
-## 💡 Core Expertise & Research Focus
+## Recent talks
 
-* **Vulnerability Intelligence:** Building practical, open-source tools to help
-  security teams cut through CVE noise and alert fatigue.
-* **Offensive Security Research:** Specializing in **Automotive and Hardware
-  Hacking**.
-* **Tooling & Automation:** Prototyping and developing robust solutions to
-  enhance **Corporate and Cloud Security** postures, primarily leveraging
-  **Python**.
-* **Thought Leadership:** I deliver data-driven presentations on the
-  vulnerability disclosure landscape, including my talk "CVE Crisis" presented
-  at DEF CON 33's AppSec Village.
+| When | Where | Talk |
+|---|---|---|
+| Sep 2026 | VulnOptiCON, Luxembourg | The CVE Panopticon: What Happens When the Prisoners Set the Standards? |
+| Apr 2026 | VulnCon, Scottsdale | CVE Decaf: Brewing Better and More Actionable Data Quality (with Jay Jacobs) |
+| Dec 2025 | Black Hat EU, London | The Post-NVD Era: A Call for Global CVE Decentralization |
+| Aug 2025 | DEF CON 33 AppSec Village | CVE Crisis |
 
----
+Slides for these and older talks are on [rogolabs.net](https://rogolabs.net).
 
-## 🌐 My Security & Intelligence Tools (RogoLabs Projects)
+## Elsewhere
 
-These open-source projects are central to my mission of providing clarity in
-vulnerability management:
+- [jerrygamblin.com](https://jerrygamblin.com): data reviews, build logs and the occasional golf dashboard.
+- [LinkedIn](https://www.linkedin.com/in/jgamblin/)
 
-* **CVE.ICU:** A real-time dashboard updated every 4 hours from the NVD,
-  transforming vulnerability chaos into visual intelligence with interactive
-  charts that reveal patterns and emerging trends.
-* **PatchThis.app:** A vulnerability prioritization intelligence platform that
-  integrates trusted sources like **CISA KEV** and **EPSS Scoring** to deliver
-  a curated, actionable list of vulnerabilities. (A RogoLabs project).
-* **CVEForecast.org:** An automated platform using advanced time series
-  forecasting models to predict Common Vulnerabilities and Exposures (CVEs),
-  providing data-driven insights into future disclosure trends.
-* **CNAScorecard.org:** A tool ranking CVE issuers by data completeness,
-  revealing major gaps in patch information and software identifiers across
-  thousands of vulnerabilities.
-
----
-
-## 🔗 Connect & Follow My Work
-
-* [RogoLabs](https://rogolabs.net): Visit my lab's official site for tools and insights.
-* [Website/Blog](https://jerrygamblin.com): Ongoing security research, analysis, and insights.
-* [LinkedIn](https://www.linkedin.com/in/jgamblin/): Let's connect professionally.
-
----
-
-## 📈 My Open Source Contributions
-
-![JGamblin github stats](https://github-readme-stats.vercel.app/api?username=jgamblin&show_icons=true&theme=default&hide_border=true)
+If one of these tools gets a number wrong, open an issue. I would rather be corrected than believed.
